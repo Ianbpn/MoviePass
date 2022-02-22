@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,
+body {
+	background-image: url(../img/bglogin2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+    font-family: 'Numans', sans-serif;
+
+}
+body {
+    background: transparent;
+    margin-left: 50%;
+}
+.container {
+	height: 100%;
+	align-content: center;
+}
+
+.card {
+	height: 370px;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+.card-header h3 {
+	color: white;
+}
+
+
+
+.input-group-prepend span {
+	width: 50px;
+	background-color: #FFC312;
+	color: black;
+	border: 0 !important;
+}
+
+input:focus {
+	outline: 0 0 0 0 !important;
+	box-shadow: 0 0 0 0 !important;
+}
+
+
+
+.login_btn {
+	color: black;
+	background-color: #FFC312;
+  width: 100px;
+  
+}
+
+.login_btn:hover {
+	color: black;
+	background-color: white;
+}
+
+.links {
+	color: white;
+}
+
+.links a {
+	margin-left: 4px;
+}
+
+.login-css {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	margin: 0 auto;
+	border: 2px solid rgba(247,197,61,1);
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	font: normal 17px/30px "Advent Pro", Helvetica, sans-serif;
+	color: rgba(247,197,61,1);
+	text-align: center;
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	letter-spacing: 1px;
+	background: rgba(0,0,0,0);
+	-webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+	-moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+	-o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+	transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  }
+  
+  .login-css:hover {
+	color: rgba(255,255,255,1);
+	background: rgba(247,197,61,1);
+  }
+  
+  .login-css:active {
+	border: 2px solid rgba(244,213,134,1);
+	background: rgba(244,213,134,1);
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+  }
+

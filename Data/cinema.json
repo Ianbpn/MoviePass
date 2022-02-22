@@ -1,0 +1,26 @@
+[
+    {
+        "name": "holes",
+        "address": "1234",
+        "capacity": "44",
+        "entranceValue": "66"
+    },
+    {
+        "name": "gialleio",
+        "address": "5555",
+        "capacity": "44",
+        "entranceValue": "5555"
+    },
+    {
+        "name": "holus",
+        "address": "5555",
+        "capacity": "1234",
+        "entranceValue": "5555"
+    },
+    {
+        "name": "pepes",
+        "address": "1234",
+        "capacity": "45354",
+        "entranceValue": "66"
+    }
+]

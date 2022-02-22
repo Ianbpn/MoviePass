@@ -1,0 +1,5 @@
+horario de funciones - Listo
+filtrar peliculas con funciones para el usuario de genero y fecha - Listo - Agregar Vistas - Listo
+Agregar modelos al ticket - Cambiar en DB y Models Listo
+Remanentes  de capacidad para el admin - Listo
+detalle de tickets qr y manda mail 

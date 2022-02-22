@@ -1,0 +1,21 @@
+function GetMovieWithFunction(){
+        try
+        {
+        $list=array();
+        $query = "SELECT M.id_movie FROM movies as M join functions as F ON M.id_movie=F.id_movie";
+        $this->connection = Connection::GetInstance();
+
+        $resultSet = $this->connection->Execute($query);
+        foreach($resultSet as $row)
+        {
+            $movie = new Movie();
+            $movie = $this->GetMovieById($row['id_movie']);
+            array_push($list,$movie);
+        }
+        return $list;
+    }
+    catch(Exception $ex)
+    {
+        throw $ex;
+    }
+      }
